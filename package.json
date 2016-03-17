@@ -1,0 +1,16 @@
+{
+  "name": "reactive-js-playground",
+  "version": "1.0.0",
+  "description": "Playground for Reactive JS (RxJS)",
+  "main": "app.js",
+  "dependencies": {
+    "jquery": "^2.2.1",
+    "rx": "^4.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fabrizio Di Napoli <hyunk3l@gmail.com>",
+  "license": "ISC"
+}
