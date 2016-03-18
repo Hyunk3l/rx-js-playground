@@ -1,8 +1,8 @@
-import GithubApiUserRepository from './github_api_user_repository';
+import GitHubApiUserRepository from './github_api_user_repository';
 
 export default class GetGitHubUsersUseCase {
 
-    constructor({repository = new GithubApiUserRepository()}) {
+    constructor({repository = new GitHubApiUserRepository()} = {}) {
         this._repository = repository;
     }
 

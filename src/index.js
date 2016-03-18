@@ -1,11 +1,11 @@
 import '../node_modules/rx/index.js';
 import '../node_modules/jquery/dist/jquery.min';
-import GetGithubUsersUseCase from './javascript/get_github_users_use_case';
+import GetGitHubUsersUseCase from "./javascript/get_github_users_use_case";
 
-class App {
+class Domain {
     constructor() {
         this._usesCases = {};
-        this._usesCases['get_github_users_use_case'] = new GetGithubUsersUseCase();
+        this._usesCases['get_github_users_use_case'] = new GetGitHubUsersUseCase();
     }
 
     get(key) {
@@ -13,4 +13,4 @@ class App {
     }
 }
 
-export default new App();
+export default new Domain();
