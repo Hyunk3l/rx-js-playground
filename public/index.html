@@ -2,5 +2,11 @@
     <body>
     <div id="response"></div>
     <script src="./dist/index.js"></script>
+    <script>
+        (function() {
+            var getGitHubUsersUseCase = Domain.get('get_github_users_use_case');
+            getGitHubUsersUseCase.execute();
+        })();
+    </script>
     </body>
 </html>
