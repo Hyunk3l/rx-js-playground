@@ -6,7 +6,8 @@
   "main": "app.js",
   "dependencies": {
     "jquery": "^2.2.1",
-    "rx": "^4.1.0"
+    "rx": "^4.1.0",
+    "rx-dom": "^7.0.3"
   },
   "devDependencies": {
     "babel-cli": "^6.6.5",
